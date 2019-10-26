@@ -1,3 +1,7 @@
+// TODO
+// possibleNextWords might be empty
+// please manage this possibility
+
 const preGenerated = {
   poemOBrien1: `march into the end \nthe end of course a true war \nto do the things you know you know you know you are \nsisters who never \nout on a true war story is never \nis never about war story \nabout war story`,
   poemOBrien2: `on a true war story \ntrue war story \nwrite back and march into the end \nwho never about war story is never about war story \ndawn \nmountains \nmarch into the end of course \nmemory it's about war story \nknow you know`,

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+body {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+header {
+	width: 80%;
+}
+
+.container {
+	width: 80%;
+}
