@@ -8,8 +8,7 @@
   <title>poems i've left behind</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="css/reset.css"> -->
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -21,34 +20,41 @@
   </header>
 
   <section class='container'>
-  
-    <p>This program generates poetry using a simple markov chain, and while markov chains are SUPER COOL, they aren't very smart. Because of this, most of the poems generated are some combination of boring and nonsensical. I selected a few decent sample poems for y'all to read, or you can generate your own and see what happens!</p>
 
-    <div>
-      <h2 class='subtitle'>Pre-generated poems</h2>
-      <label for="poems">Select a poetry sample:</label>
-      <select id='poems'>
-        <option value="poemOBrien1">How to tell a true war story v. 1</option>
-        <option value="poemOBrien2">How to tell a true war story v. 2</option>
-        <option value="poemFosterWallace1">Everything is green v. 1</option>
-        <option value="poemFosterWallace2">Everything is green v. 2</option>
-        <option value="poemFrancisco1">Haunted v. 1</option>
-        <option value="poemFrancisco2">Haunted v. 2</option>
-      </select>
-      <button id="read-poem">read poem!</button>
-      <p id='poem-output'></p>
+    <div class='about'>
+  
+      <h3>
+        This program generates poetry using a simple markov chain, and while markov chains are SUPER COOL, they aren't very smart. Because of this, most of the poems generated are some combination of boring and nonsensical. I selected a few decent sample poems for y'all to read, or you can generate your own and see what happens!
+      </h3>
     </div>
 
-    <div>
-      <h2 class='subtitle'>Generate your own poem!</h2>
-      <label for="text">Choose your text snippet:</label>
-      <select id='text'>
-        <option value="OBRIEN">Tim O'Brien - How to tell a true war story</option>
-        <option value="FOSTERWALLACE">David Foster Wallace - Everything is Green</option>
-        <option value="FRANCISCO">Rudy Francisco - Haunted</option>
-      </select>
-      <button id="generate-poem">generate poem!</button>
-      <p id='generated-text'></p>
+    <div class='generators'>
+      <div class='vetted'>
+        <h2 class='subtitle'>Pre-generated poems</h2>
+        <label for="poems">Select a poetry sample:</label><br>
+        <select id='poems'>
+          <option value="poemOBrien1">How to tell a true war story v. 1</option>
+          <option value="poemOBrien2">How to tell a true war story v. 2</option>
+          <option value="poemFosterWallace1">Everything is green v. 1</option>
+          <option value="poemFosterWallace2">Everything is green v. 2</option>
+          <option value="poemFrancisco1">Haunted v. 1</option>
+          <option value="poemFrancisco2">Haunted v. 2</option>
+        </select><br>
+        <button id="read-poem">read poem!</button>
+        <p id='poem-output'></p>
+      </div>
+
+      <div class='random'>
+        <h2 class='subtitle'>Generate your own poem!</h2>
+        <label for="text">Choose your text snippet:</label><br>
+        <select id='text'>
+          <option value="OBRIEN">Tim O'Brien - How to tell a true war story</option>
+          <option value="FOSTERWALLACE">David Foster Wallace - Everything is Green</option>
+          <option value="FRANCISCO">Rudy Francisco - Haunted</option>
+        </select><br>
+        <button id="generate-poem">generate poem!</button>
+        <p id='generated-text'></p>
+      </div>
     </div>
 
   </section>
